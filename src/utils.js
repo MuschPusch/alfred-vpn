@@ -66,5 +66,5 @@ exports.IsConnected = name => {
 
 exports.IsConnecting = name => {
 	let found = findByName(name);
-	return (found !== undefined && found.IsConnecting());
+	return (found !== undefined && found.isConnecting());
 }
